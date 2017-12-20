@@ -9,3 +9,4 @@ gtts
 bs4
 leveldb
 flask-bootstrap
+pandas
