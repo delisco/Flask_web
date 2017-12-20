@@ -1,0 +1,33 @@
+
+.container{ 
+    padding-left: 50px;padding-right: 50px
+}
+
+.navbar-brandv{
+    font-size: 28px;
+}
+.nav navbar-nav{
+    font-size: 24px;
+}
+
+
+body { font-family: sans-serif; background: #696969; }
+
+h1 { color: #FFFF6F; font-size: 32px} 
+
+h2 { color: #ffffff; size: 48px}
+
+table{
+    width:1200px;
+    margin: 10px;
+}
+
+th{ color: #000000; font-size: 24px; text-align:center;}
+
+
+
+#t_title{ color: #ffffff; font-size: 15px; margin-left : 4em; height:40px}
+#t_time{ color: #ffffff; font-size: 15px; width:100px; margin-left : 2em; height:40px}
+#t_url{ color: #ffffff; font-size: 15px; margin-left : 12em; height:40px}
+
+#d_title{ color: #F75000; font-size: 36px;}

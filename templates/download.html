@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block title %} DOWNLOAD PAGE {% endblock %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+{% block page_content %}
+<h1><a href = {{ url_for('static', filename='hypebeast.mp3') }}>球鞋訊息線上聽</a></h1>
+{% endblock %}

@@ -1,0 +1,36 @@
+<!doctype html> 
+{% extends "base.html" %}
+
+{% block scripts %}
+<script src="static/js/thirdParty/jquery-3.2.1.min.js"></script>
+<script src="static/js/reporter/reporter.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+{{super()}}
+{% endblock %}
+
+
+{% block title %}HYPEBEAST FOOTWEAR NEWS{% endblock %}
+
+{% block page_content %}
+    <h1><strong>HYPEBEAST FOOTWEAR NEWS</strong></h1>
+    <section>
+        <table>
+        <thead>
+            <tr>
+                <th><strong>標題</strong></th>
+                <th><strong>發佈時間</strong></th>
+                <th><strong>文章網址</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for l in range(10) %}
+            <tr> 
+                <td id='t_title'>{{ hype_list[1][l] }}</td>
+                <td id='t_time' >{{ hype_list[2][l] }}</td>
+                <td id='t_url'>{{ hype_list[3][l] }}</td>
+            </tr>
+            {% endfor %} 
+        </tbody> 
+        </table>
+    </section>
+{% endblock %}
